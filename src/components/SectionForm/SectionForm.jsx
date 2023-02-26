@@ -4,7 +4,7 @@ import { Wrapper, Blank, Label, Button, Error } from './SectionForm.styled';
 import * as Yup from 'yup';
 
 const regexFOrName =
-  /^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$/;
+  /^[a-zA-Za-яА-Я]+(([' -][a-zA-Za-яА-Я ])?[a-zA-Za-яА-Я]*)*$/;
 const regexFOrNumber =
   /^\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/;
 
